@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.package-foot-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7%;
+}
+
+.package-foot-icon1 {
+    border: 2px solid  #C7923E;
+    color: #C7923E;
+    text-align: center;
+    padding: 17px;
+    border-radius: 10px;
+}
+
+.package-foot-icon2 {
+    border: 2px solid  #C7923E;
+    color: #fff;
+    text-align: center;
+    padding: 17px;
+    border-radius: 10px;
+    background-color: #C7923E;
+}
+

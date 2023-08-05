@@ -1,0 +1,14 @@
+  /* .middleBloc {
+    background-image: url(assets/images/);
+  } */
+
+  .subhead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .testimony {
+    display: flex;
+    flex-direction: column;
+  }

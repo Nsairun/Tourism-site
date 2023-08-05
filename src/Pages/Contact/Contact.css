@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-container-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.contact-container-title h1 {
+    height: 74px;
+    width: 502px;
+    font: "Lora";
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+}
+
+.contact-container-title p {
+    height: 17px;
+    width: 1120px;
+    line-height: 120%;
+    font: "Mulish";
+    font-weight: 400;
+    text-align: left;
+    font-size: 24px;
+}
+
+.contact-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info {
+    width: 820px;
+    height: 700px;
+    border-radius: 9px;
+    border: 1px #E1E1E1 solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-header {
+    font: 'lora';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120px;
+    height: 29px;
+    width: 264px;
+}
+
+.contact-info h5 {
+    height: 19px;
+    width: 84px;
+    font: 'Mulish';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120px;
+    color: black;
+}
+
+.names {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font: "Mulish";
+}
+
+.names input {
+    width: 360px;
+    height: 48px;
+}
+
+.contact-mail1 input {
+    width: 760px;
+    height: 48px;
+    border-radius: 8px;
+}
+
+.contact-message {
+    display: flex;
+    flex-direction: column;
+    font: "Mulish";
+}
+
+.contact-message button {
+    background: #C7923E;
+}
+
+.contact-message-button {
+    padding-top: 3%;
+}
+
+.contact-message input {
+    width: 756px;
+    height: 120pX;
+    border-radius: 8PX;
+}
+
+.contact-web {
+    display: flex;
+    gap: 2rem;
+    padding: 45px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-social-media,
+.contact-mail,
+.contact-address {
+    border: 1px solid #304F47;
+    color: #fff;
+    height: 130px;
+    width: 300px;
+    border-radius: 50px;
+    text-align: center;
+    /* padding-top: 5%; */
+    color: #304F47;
+    font-weight: 500;
+    box-shadow: 5px 8px #a7b1b1;
+}
+
+.contact-social-media h3,
+.contact-mail,
+.contact-address {
+    color: black;
+    font: "Lora";
+}
+
+.contact-social-media i {
+  border-radius: 50%;
+  border: 2px solid #304F47;
+  text-align: center;
+  margin: 0;
+  color: #304F47 important;
+  gap: 2rem;
+  padding: 5px;
+}
+
+.contact-mail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    color: #304F47;
+    line-height: 2px;
+    padding: 0;
+    margin: 0;
+}
+
+.email{
+    display: flex;
+    color: #304F47;
+    align-items: center;
+    justify-content: center;
+    line-height: 2px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.contact-mail i{
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.contact-address p {
+    color: #304F47;
+}

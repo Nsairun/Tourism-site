@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+
+
+.footer {
+    background-color: #304f47;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-around;
+    padding: 3%;
+    font: 'lora';
+    margin: auto;
+}
+
+.footer1 {
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.foot h2 {
+    width: 469px;
+    height: 96px;
+    font-size: 39px;
+    font: 'Mulish';
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    width: 19vw;
+    margin-left: 6%;
+}
+
+.about-tourism {
+    display: flex;
+}
+
+.foot p {
+    height: 206px;
+    width: 396px;
+    font-size: 20px;
+}
+
+.foot h4 {
+    height: 26px;
+    width: 309px;
+    font-weight: 700;
+    font: 'Mulish';
+}
+
+.foot input {
+    height: 57px;
+    width: 333px;
+    border-radius: 10px;
+}
+
+.foot button {
+    width: 4vw;
+    height: 7vh;
+    margin: 1rem;
+}
+
+.foot i {
+    color: #fff;
+    font-size: x-large;
+}
+
+.foot2 {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+ 
+.foot2 i {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px #fff solid;
+    border-radius: 50%;
+}
+
+.end {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.foot2 img {
+    height: 88px;
+    width: 86px;
+}
+
+.footer-icons {
+    display: flex;
+    padding: 5%;
+}
+
+.footer1 p {
+    padding: 5%;
+}
+
+.about-tourism ul {
+    padding: 7%;
+    line-height: 60px;
+    width: 187px;
+    height: 19px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.inputField {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

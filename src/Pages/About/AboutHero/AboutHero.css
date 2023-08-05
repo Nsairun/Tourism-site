@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+
+
+.abtHero-main {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.abtHero-left {
+  padding: 0.4% 2%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20%;
+}
+
+.abtHero-lefttext {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.abtHero-lefttext h1 {
+  font-family: 'Lora';
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 74px;
+  letter-spacing: 0.003em;
+  text-align: left;
+  max-height: 200px;
+  margin: 0;
+  padding: 0;
+}
+
+.abtHero-lefttext p {
+  font-family: 'Mulish';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.005em;
+  text-align: left;
+}
+
+.abtHero-subContainer-one {
+    display: flex;
+    gap: 25%;
+
+}
+
+.abtHero-subContainer-booking {
+    display: flex;
+    flex-direction: row;
+    /* z-index: 1; */
+}
+
+.abtHero-right {
+  background-image: url('../../../assets/images/monkeys.jpg');
+  background-size:cover;
+  height: 782px;
+  width: 50%;
+  transform: translateY(-13%);
+  align-content: flex-end;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* .abtHero-subContainer-one {
+    display: flex;
+    gap: 1rem;
+} */
+
+.abt__btn {
+    background-color: #fff;
+    z-index: 1;
+    width: 250px;
+    padding: 2%;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+/* Button  {
+    background-color: #304F47;
+    color: #fff;
+    text-align: center;
+} */
+
+.abtHero-subContainer-booking p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    /* width: 140px; */
+    font-weight: 700;
+    gap: 10px;
+    font: "Mulish";
+    width: 180px;
+}
+
+.abtHero-subContainer small {
+    opacity: 0.7;
+    margin: 0;
+}
+
+.abtHero-subContainer-booking i {
+    color: #ffa500;
+}
+
+.abthero-bdy-container {
+    display: flex;
+}
+
+.abthero-bdy-one {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font: "Mulish";
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.abthero-bdy-two {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font: "Mulish";
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.abthero-heading h2 {
+    font: "lora";
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 120px;
+    text-align: center;
+}
+
+.abthero-heading p {
+    border: 8px solid #304F47;
+    width: 270px;
+    margin-left: 40%;
+    margin-top: 4%;
+}
+
+.abthero-bdy-one img {
+   height: 320px; 
+   width: 500px;
+}
+
+.abthero-bdy-two img {
+    height: 320px; 
+    width: 500px;
+ }
+
+.abthero-bdy-one p {
+    height: 300px;
+    width: 500px;
+    opacity: 0.7;
+}
+
+.abthero-bdy-two p {
+    height: 300px;
+    width: 500px;
+    opacity: 0.7;
+}

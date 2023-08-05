@@ -1,0 +1,60 @@
+.grp3 {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.grp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #304F47;
+    height: 19vh;
+    width: 18vw;
+    text-align: center;
+    border-radius: 35px;
+    padding: 10px;
+    gap: 2rem;
+}
+
+.grp h5 {
+    width: 210px;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+    margin: 0;
+}
+
+.grp i {
+    font-size: 20px;
+    margin: 0;
+}
+
+#icon {
+    font-weight: bolder;
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 760px) {
+    .grp3 {
+        display: block;
+        gap: 1rem;
+    }
+
+    .grp {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .grp h5 {
+        height: auto;
+        width: 100%;
+    }
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+
+
+.testimony {
+    padding: 5px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-bottom: 4%;
+    font: 'Mulish';
+}
+
+.testimony-img {
+    border: 4px solid #304F47;
+    border-radius: 50%;
+    height: 18vh;
+    width: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimony-img img {
+    height: 17vh;
+    width: 14vw;
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+
+.test {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 5px;
+}
+
+.test1 {
+    height: 75vh;
+    width: 300px;
+    box-shadow: 1px 4px rgba(0, 0, 0, 0.25); 
+    border:1px solid #0000001a;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 11px;
+}
+
+.test1 h2 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.test1 p{
+    width: 20vw;
+    height: 15vh;
+    padding: 5px;
+    opacity: 0.5;
+    text-align: left;
+}
+
+.projectColors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.color1 {
+    height: 13px;
+    width: 60px;
+    background-color: #C7923E;
+}
+
+.color2 {
+    height: 13px;
+    width: 60px;
+    background-color: #304F47;
+}
+
+.color3 {
+    height: 13px;
+    width: 60px;
+    background-color: #304F47;
+}

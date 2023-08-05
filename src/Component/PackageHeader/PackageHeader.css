@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+
+
+.tour-package-header {
+    background-image: url("./../../assets/images/package.png");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 670px;
+    width: 100%;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.tour-package-header h1 {
+    height: 77px;
+    width: 422px;
+    font:"lora";
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    font-size: 66px;
+    line-height: 120%;
+}
+
+.tour-package-sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.tour-package-header-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0;
+}
+
+.tour-package-header-one i {
+    height: 22px;
+    width: 13px;
+}
+
+.tour-package-header-one h4 {
+    line-height: 30px;
+    font: "lora";
+    font-weight: 700;
+    font-size: 29px;
+    padding: 2px;
+}
+
+.tour-package-header-one h5 {
+    color: #C7923E;
+    font-size: 29px;
+    padding: 2px;
+}
+
+@media only  screen and (max-width:768px) {
+    
+}
