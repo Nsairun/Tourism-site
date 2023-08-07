@@ -8,8 +8,9 @@ import './AbtHeroCenter.css';
 function AbtHeroCenter() {
   return (
     <div className="abthero-bdy-container">
-      <div>
+      <div className="abthero-topic">
         <h2>Welcome to Africa Wizzy Safari</h2>
+        <p> </p>
       </div>
       <div className="abthero-bdy-one">
         <p>

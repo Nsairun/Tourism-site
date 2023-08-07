@@ -12,21 +12,21 @@ function AboutHero() {
         </div>
         <div className="abtHero-subContainer-one">
           <div className="abtHero-subContainer-booking">
-            <div>
+            <div className=" booking">
               <small>Guests</small>
               <p>
                 2 Adults
                 <i id="arrowDown" className="fa-solid fa-chevron-down" />
               </p>
             </div>
-            <div>
+            <div className="booking">
               <small>Date</small>
               <p>
                 12 - 13 April 2021
                 <i id="arrowDown" className="fa-solid fa-chevron-down" />
               </p>
             </div>
-            <div>
+            <div className="booking">
               <small>Package</small>
               <p>
                 Akagera Tour
@@ -34,7 +34,7 @@ function AboutHero() {
               </p>
             </div>
           </div>
-          <div className="abt__btn">
+          <div className="abt-btn">
             <Button text="Book Now" color="#304F47" />
           </div>
         </div>
