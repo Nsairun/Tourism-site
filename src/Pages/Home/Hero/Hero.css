@@ -7,18 +7,20 @@
     ),
     url('../../../assets/images/Image\ Placeholder.png');
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 118vh;
+  background-size: cover;
+  height: 120vh;
   width: 100%;
   color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 2rem;
 }
 
 .hero-header {
   width: 65vw;
+  margin-top: 14%;
 }
 
 .hero h2 {
@@ -37,9 +39,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* padding-top: 8%;
-  padding-left: 145px;
-  padding-right: 145px; */
+  padding-right: 15%;
+  padding-left: 15%;
+  margin-top: 3%;
 }
 
 .nextprev i {
@@ -70,6 +72,7 @@
   width: 70%;
   height: 10vh;
 	padding: 35px;
+  margin-top: 8%;
 }
 
 .bookNow1 {

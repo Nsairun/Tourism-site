@@ -9,19 +9,25 @@ function Footer() {
     <div className="footer">
       <div className="footer1">
         <div className="foot">
-          <h2>If you have any question, Let us help you!</h2>
-          <p>
-            If you have any questions or would like to book a tour with us,
-            please dont hesitate to contact us.
+          <div className="foot-heading">
+            <h2>If you have any question, Let us help you!</h2>
             <p>
-              Phone: +250 788 123 456 Email: info@rwandatourism.com Address:
-              Kigali, Rwanda
+              If you have any questions or would like to book a tour with us,
+              please dont hesitate to contact us..
             </p>
+          </div>
+
+          <p>Phone: +250 788 123 456 </p>
+          <p>
+            Email: <u>info@rwandatourism.com</u>
           </p>
-          <h4>Subscribe to our newspaper</h4>
-          <div className="inputField">
-            <input type="text" placeholder="Input your email here" />
-            <div>
+          <p>Address: Kigap, Rwanda</p>
+
+          <div className="foot-input">
+            <h4>Subscribe to our newspaper</h4>
+            <div className="field">
+              <input type="text" placeholder="Input your email here" />
+
               <Button className="fa-solid fa-paper-plane-top" />
             </div>
           </div>
@@ -49,23 +55,23 @@ function Footer() {
             industry.
           </p>
           <div className="about-tourism">
-            <ul>
-              <li>Home</li>
-              <li>Testimonials</li>
-              <li>Destination</li>
-              <li>Signings</li>
-            </ul>
-            <ul>
-              <li>About Us</li>
-              <li>Packages</li>
-              <li>Events</li>
-              <li>Gallery</li>
-            </ul>
-            <ul>
-              <li>Our team</li>
-              <li>Blog</li>
-              <li>Contact Us</li>
-            </ul>
+            <div>
+              <p>Home</p>
+              <p>Testimonials</p>
+              <p>Destination</p>
+              <p>Signings</p>
+            </div>
+            <div>
+              <p>About Us</p>
+              <p>Packages</p>
+              <p>Events</p>
+              <p>Gallery</p>
+            </div>
+            <div>
+              <p>Our team</p>
+              <p>Blog</p>
+              <p>Contact Us</p>
+            </div>
           </div>
         </div>
       </div>
