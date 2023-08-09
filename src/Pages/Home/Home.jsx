@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 import StickyBar from '../../Component/StickyBar/StickyBar';
 import SubHeader from '../../Component/subheader/SubHeader';
-import Header from './Header/Header';
+import Header from '../../Component/Header/Header';
 import Hero from './Hero/Hero';
 import Cards from './Cards/Cards';
 import GroupII from './GroupII/GroupII';
@@ -43,6 +43,7 @@ export default function Home() {
       </div>
       <div className="testimony">
         <Header
+          className="testimony-text"
           title="Our Traveller Say "
           subtitle="What our clients say about us"
         />

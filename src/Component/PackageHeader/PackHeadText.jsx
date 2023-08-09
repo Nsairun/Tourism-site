@@ -10,7 +10,14 @@ function PackHeadText({ h1, h4, h5 }) {
         <div className="tour-package-header-one">
           <h4>{h4}</h4>
           <div>
-            <h5>
+            <h5
+              style={{
+                display: 'flex',
+                alignContent: 'center',
+                justifyContent: 'center',
+                gap: '1rem',
+              }}
+            >
               <i className="fa-sharp fa-solid fa-caret-right" />
               {h5}
             </h5>

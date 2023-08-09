@@ -33,27 +33,29 @@ function Footer() {
           </div>
         </div>
         <div className="foot2">
-          <div className="logo">
-            <img src={Logo} alt="" />
-            <div className="footer-icons">
-              <div>
-                <i className="fa-brands fa-facebook" />
-              </div>
-              <div>
-                <i className="fa-brands fa-twitter" />
-              </div>
-              <div>
-                <i className="fa-brands fa-linkedin" />
-              </div>
-              <div>
-                <i className="fa-brands fa-instagram" />
+          <div className="mainlogo">
+            <div className="logo">
+              <img src={Logo} alt="" />
+              <div className="footer-icons">
+                <div>
+                  <i className="fa-brands fa-facebook" />
+                </div>
+                <div>
+                  <i className="fa-brands fa-twitter" />
+                </div>
+                <div>
+                  <i className="fa-brands fa-linkedin" />
+                </div>
+                <div>
+                  <i className="fa-brands fa-instagram" />
+                </div>
               </div>
             </div>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
           </div>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
-          </p>
           <div className="about-tourism">
             <div>
               <p>Home</p>

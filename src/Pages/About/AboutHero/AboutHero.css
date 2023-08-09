@@ -109,7 +109,7 @@
 .abtHero-right {
     background-image: url('../../../assets/images/monkeys.jpg');
     background-size: cover;
-    height: 119vh;
+    height: 123vh;
     width: 35vw;
     background-repeat: no-repeat;
     background-position: center;
@@ -191,4 +191,60 @@
     height: 300px;
     width: 500px;
     opacity: 0.7;
+}
+
+@media screen and (max-width: 760px) {
+    .abtHero-main {
+    background-image: linear-gradient(rgba(44, 43, 43, 0.39),rgba(43, 44, 44, 0.26)), url('../../../assets/images/monkeys.jpg');
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .abtHero-left {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .abtHero-left h1 {
+        font-size: 25px;
+        width: 100%;
+        height: fit-content;
+        color: #fff;
+    }
+
+    .abtHero-lefttext p {
+        color: #fff;
+    }
+
+    .abtHero-subContainer-one {
+        display: block;
+        height: fit-content;
+        width: fit-content;
+        padding: 12%;
+        margin-top: 15%;
+    }
+
+    .abtHero-subContainer-booking {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        height: fit-content;
+        padding: 5%;
+    }
+
+    .abt-btn button {
+        width: 100%;
+    }
+
+    .abtHero-right {
+        display: none;
+    }
 }

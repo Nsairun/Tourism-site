@@ -2,16 +2,20 @@
 
 
 .tour-package-header {
-    background-image: url("./../../assets/images/package.png");
-    background-position: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 670px;
-    width: 100%;
-    color: #fff;
-    margin: 0;
-    padding: 0;
+    background-image: linear-gradient(
+      rgba(31, 28, 28, 0.349),
+      rgba(29, 25, 25, 0.144)
+    ),
+    url('../../assets/images/Image\ cover.png ');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 112vh;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .tour-package-header h1 {
@@ -20,9 +24,8 @@
     font:"lora";
     font-weight: 700;
     text-align: center;
-    position: relative;
     font-size: 66px;
-    line-height: 120%;
+    margin: 0;
 }
 
 .tour-package-sub {
@@ -30,7 +33,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0;
+    gap: 2rem;
+    height: 30vh;
+    width: 25vw;
 }
 
 .tour-package-header-one {
@@ -52,14 +57,28 @@
     font-weight: 700;
     font-size: 29px;
     padding: 2px;
+    margin: 0;
 }
 
 .tour-package-header-one h5 {
     color: #C7923E;
     font-size: 29px;
     padding: 2px;
+    margin: 0;
 }
 
-@media only  screen and (max-width:768px) {
-    
+@media screen and (max-width: 760px) {
+    .tour-package-header {
+        width: 100%;
+    }
+
+    .tour-package-header h1 {
+        font-size: 40px;
+    }
+
+    .tour-package-header h4 {
+        font-size: 25px;
+    }
+
+
 }

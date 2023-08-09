@@ -1,158 +1,234 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
 
-
 .footer {
-    background-color: #304f47;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font: 'lora';
+  background-color: #304f47;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font: 'lora';
+  height: fit-content;
 }
 
 .footer1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100%;
-    width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 80vw;
 }
 
 .foot {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    height: 80vh;
-    width: 30vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  height: max(80vh, 100%);
+  width: max(30vw, 100%);
 }
 
 .foot p {
-    height: 5vh;
-    width: 35vw;
-    font-size: 15px;
-    margin: 0;
+  height: 5vh;
+  width: 35vw;
+  font-size: 15px;
+  margin: 0;
 }
 
 .foot-heading {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    gap: 1em;
-    margin-bottom: 10%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 10%;
 }
 
- .foot-heading h2 {
-    font: 'Mulish';
-    width: 30vw;
+.foot-heading h2 {
+  font: 'Mulish';
+  width: 30vw;
 }
 
 .foot-heading p {
-    width: 25vw;
-    display: flex;
-    font-size: 15px;
-    align-items: center;
-    justify-content: center;
-
+  width: 25vw;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
 }
 
 .foot h4 {
-    font: 'Mulish';
-    margin-top: 5%;
+  font: 'Mulish';
+  margin-top: 5%;
 }
 
 .foot-input {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .field {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .foot input {
-    height: 8vh;
-    width: 23vw;
-    border-radius: 10px;
-    padding: 2%;
+  height: 8vh;
+  width: 23vw;
+  border-radius: 10px;
+  padding: 2%;
 }
 
 .foot button {
-    width: 4vw;
-    height: 8vh;
-    margin: 1rem;
+  width: 4vw;
+  height: 8vh;
+  margin: 1rem;
 }
 
 .foot i {
-    color: #fff;
-    font-size: x-large;
+  color: #fff;
+  font-size: x-large;
 }
 
 .foot2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -10%;
+  height: 70vh;
+}
+
+.mainlogo {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: -10%;
-    height: 70vh;
+    margin: 0;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 35vw;
-    padding: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35vw;
+  margin: 0;
+  padding: 3%;
 }
 
 .foot2 img {
-    height: 88px;
-    width: 86px;
+  height: 88px;
+  width: 86px;
 }
 
 .footer-icons {
-    display: flex;
-    padding: 5%;
+  display: flex;
+  padding: 5%;
 }
- 
+
 .foot2 i {
-    padding: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px #fff solid;
+  border-radius: 50%;
+}
+
+.foot2 p {
+  width: 45vw;
+  font-size: 15px;
+}
+
+.about-tourism {
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
+}
+
+.about-tourism p {
+  line-height: 60px;
+  width: 187px;
+  height: 19px;
+  font-size: 15px;
+  font-family: 'Mulish';
+}
+
+.end {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 760px) {
+  .footer1,
+  footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    padding: 10%;
+    gap: 8rem;
+  }
+
+  .foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .mainlogo {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1.5px #fff solid;
-    border-radius: 50%;
-}
+    width: 100%;
+    height: fit-content;
+  }
 
-.foot2 p {
-    width: 45vw;
+  .mainlogo p {
+    width: 100%;
+  }
+
+  .field {
+    width: 100%;
+  }
+
+  .foot input {
+    width: 75vw;
     font-size: 15px;
-}
+  }
 
-.about-tourism {
+  .foot button {
+    width: 50%;
+  }
+
+  .foot h2, 
+  .foot p {
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+  }
+
+  .logo {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .about-tourism {
     display: flex;
-    align-items: space-between;
+    align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+  }
 }
-
-.about-tourism p {
-    line-height: 60px;
-    width: 187px;
-    height: 19px;
-    font-size: 15px;
-    font-family: 'Mulish';
-}
-
-.end {
-    text-align: center;
-    margin-top: 5%;
-    font-size: 15px;
-}
-

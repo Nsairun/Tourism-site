@@ -1,6 +1,6 @@
 import React from 'react';
 import './GroupIII.css';
-import Header from '../Header/Header';
+import Header from '../../../Component/Header/Header';
 
 function GroupIII() {
   return (

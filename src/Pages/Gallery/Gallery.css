@@ -12,6 +12,10 @@ body a {
     color: #000;
 }
 
+.head-text h1 {
+  font-size: 25px;
+}
+
 .main-gallery {
   display: flex;
   flex-direction: column;
@@ -146,4 +150,82 @@ body a {
 
 .gallery-pics-third-container{
   display: flex;
+}
+
+@media screen and (max-width: 760px) {
+
+    .gallery-pics {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 0.5rem;
+      width: 100%;
+      height: fit-content;
+      border: 2px solid #0000004f;
+      padding: 5%;
+    }
+
+    .first-gallery-container,
+    .second-gallery-container
+    .gallery-pics-second-container,
+    .gallery-pics-container-b,
+    .gallery-pics-two-container {
+      display: block;
+      height: fit-content;
+      width: 100%;
+    }
+
+    .first-gallery-container .first-pic, 
+    .third-gallery-container .third-pic,
+    .gallery-pics-second-container .fourth-pic,
+    .gallery-pics-container-b img,
+    .gallery-pics-two-subcontainer img {
+      height: 25vh;
+      width: 100%;
+    }
+
+    .first-subGallery-container,
+    .third-subGallery-container,
+    .fourth-subGallery-container,
+    .gallery-pics-two-subcontainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.2rem;
+    }
+
+    .second-gallery-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.2rem;
+    }
+
+    .third-gallery-container {
+      display: block;
+    }
+
+    .first-subGallery-container img,
+    .second-gallery-container img,
+    .second-gallery-container .second-pic,
+    .third-subGallery-container img,
+    .fourth-subGallery-container img {
+      height: 26vh;
+      width: 50%;
+    }
+
+    .gallery-pics-container-b .second-pic,
+    .gallery-pics-two-container .first-pic {
+      width: 75vw;
+    }
+
+    .gallery-pics-two {
+      display: block;
+      width: 100%;
+      border: 2px solid #0000004f;
+      padding: 5%;
+    }
+
+
 }

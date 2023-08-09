@@ -1,18 +1,23 @@
 import React from 'react';
-// import PackageHeader from '../../Component/PackageHeader/PackageHeader';
-import Header from '../Home/Header/Header';
+import './package.css';
+import Header from '../../Component/Header/Header';
 import Cards from '../Home/Cards/Cards';
 import Footer from '../../Component/Footer/Footer';
 import NavBar from '../../Component/subheader/SubHeader';
 import StickyBar from '../../Component/StickyBar/StickyBar';
-import PackHeadText from '../../Component/PackageHeader/PackHeadText';
 
 export default function Package() {
   return (
     <div className="packageContainer-bdy">
       <StickyBar />
       <NavBar />
-      <PackHeadText h1="Tour Package" h4="Home" h5="Tour Package" />
+      <div className="tourHeading">
+        <h1>Tour Package</h1>
+        <div className="tourSubHeading">
+          <h4>Home</h4>
+          <h5>Tour Package</h5>
+        </div>
+      </div>
       <div>
         <Header />
       </div>

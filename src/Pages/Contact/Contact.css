@@ -1,188 +1,295 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
 
-
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-.contact-container-title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 5%;
+.contact-container-title,
+.contact-body-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
 }
 
 .contact-container-title h1 {
-    height: 74px;
-    width: 502px;
-    font: "Lora";
-    font-weight: 700;
-    font-size: 60px;
-    text-align: center;
+  height: 74px;
+  width: 502px;
+  font: 'Lora';
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
 }
 
 .contact-container-title p {
-    height: 17px;
-    width: 1120px;
-    line-height: 120%;
-    font: "Mulish";
-    font-weight: 400;
-    text-align: left;
-    font-size: 24px;
+  height: 17px;
+  width: 1120px;
+  line-height: 120%;
+  font: 'Mulish';
+  font-weight: 400;
+  text-align: left;
+  font-size: 24px;
 }
 
 .contact-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-info {
-    width: 820px;
-    height: 700px;
-    border-radius: 9px;
-    border: 1px #E1E1E1 solid;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 820px;
+  height: fit-content;
+  padding: 5%;
+  border-radius: 9px;
+  border: 1px #e1e1e1 solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .contact-header {
-    font: 'lora';
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 120px;
-    height: 29px;
-    width: 264px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-header h2 {
+  font: 'lora';
+  font-weight: 700;
+  font-size: 34px;
+  height: 29px;
+  width: 264px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .contact-info h5 {
-    height: 19px;
-    width: 84px;
-    font: 'Mulish';
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 120px;
-    color: black;
+  height: 19px;
+  width: 84px;
+  font: 'Mulish';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120px;
+  color: black;
 }
 
 .names {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    font: "Mulish";
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  font: 'Mulish';
 }
 
 .names input {
-    width: 360px;
-    height: 48px;
+  width: 360px;
+  height: 48px;
 }
 
 .contact-mail1 input {
-    width: 760px;
-    height: 48px;
-    border-radius: 8px;
+  width: 760px;
+  height: 48px;
+  border-radius: 8px;
 }
 
 .contact-message {
-    display: flex;
-    flex-direction: column;
-    font: "Mulish";
+  display: flex;
+  flex-direction: column;
+  font: 'Mulish';
 }
 
 .contact-message button {
-    background: #C7923E;
+  background: #c7923e;
 }
 
 .contact-message-button {
-    padding-top: 3%;
+  padding-top: 3%;
 }
 
 .contact-message input {
-    width: 756px;
-    height: 120pX;
-    border-radius: 8PX;
+  width: 756px;
+  height: 120px;
+  border-radius: 8px;
 }
 
 .contact-web {
-    display: flex;
-    gap: 2rem;
-    padding: 45px;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  gap: 2rem;
+  padding: 45px;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-social-media,
 .contact-mail,
 .contact-address {
-    border: 1px solid #304F47;
-    color: #fff;
-    height: 130px;
-    width: 300px;
-    border-radius: 50px;
-    text-align: center;
-    /* padding-top: 5%; */
-    color: #304F47;
-    font-weight: 500;
-    box-shadow: 5px 8px #a7b1b1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #304f47;
+  color: #fff;
+  height: 22vh;
+  padding: 5px;
+  width: 300px;
+  border-radius: 50px;
+  text-align: center;
+  color: #304f47;
+  font-weight: 500;
+  box-shadow: 5px 5px 5px #a7b1b1;
 }
 
 .contact-social-media h3,
 .contact-mail,
 .contact-address {
-    color: black;
-    font: "Lora";
+  color: black;
+  font: 'Lora';
+}
+
+.media-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-social-media i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
-  border: 2px solid #304F47;
+  border: 2px solid #304f47;
   text-align: center;
   margin: 0;
-  color: #304F47 important;
+  color: #304f47 important;
   gap: 2rem;
   padding: 5px;
 }
 
-.contact-mail{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+.contact-mail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5%;
 }
 
-.phone{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2px;
-    color: #304F47;
-    line-height: 2px;
-    padding: 0;
-    margin: 0;
+.contact-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.email{
-    display: flex;
-    color: #304F47;
-    align-items: center;
-    justify-content: center;
-    line-height: 2px;
-    padding: 0;
-    margin: 0;
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  color: #304f47;
+  line-height: 2px;
+  padding: 0;
+  margin: 0;
 }
 
+.email {
+  display: flex;
+  color: #304f47;
+  align-items: center;
+  justify-content: center;
+  line-height: 2px;
+  padding: 0;
+  margin: 0;
+}
 
-.contact-mail i{
-    font-weight: 600;
-    font-size: x-large;
+.contact-holder p,
+.contact-address p {
+  font-size: 15px;
+}
+
+.contact-mail i {
+  font-weight: 600;
+  font-size: large;
 }
 
 .contact-address p {
-    color: #304F47;
+  color: #304f47;
+}
+
+@media screen and (max-width: 760px) {
+  .contact-body-container,
+  .contact-main,
+  .contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .contact-main {
+    display: block;
+  }
+
+  .contact-container-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-container-title h1,
+  .contact-header h2,
+  .contact-address h3 {
+    font-size: 30px;
+  }
+
+  .names {
+    display: block;
+  }
+
+  .contact-container-title p {
+    font-size: 20px;
+    height: 40vh;
+    width: 70%;
+    padding: 5%;
+  }
+
+  .names1 h3,
+  .names2 h3 {
+    font-size: 20px;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .names1 input,
+  .names2 input {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .contact-mail1 input,
+  .contact-message input {
+    width: fit-content;
+    font-size: 16px;
+  }
+
+  .contact-web {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .contact-mail p {
+    padding-bottom: 15%;
+    margin: 0;
+  }
 }

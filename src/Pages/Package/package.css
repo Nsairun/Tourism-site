@@ -1,11 +1,48 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.tourHeading {
+  background-image: linear-gradient(
+      rgba(31, 28, 28, 0.349),
+      rgba(29, 25, 25, 0.144)
+    ),
+    url('../../assets/images/Image\ cover.png ');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 112vh;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tourSubHeading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.tourHeading h1 {
+  width: 40vw;
+  height: 10vh;
+  font-size: 60px;
+  font-weight: 500;
+  text-align: center;
 }
 
 .package-foot-icon {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 760px) {
+    .tourHeading h1 {
+        font-size: 35px;
+    }
 }

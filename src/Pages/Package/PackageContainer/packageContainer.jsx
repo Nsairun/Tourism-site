@@ -1,7 +1,7 @@
 import React from 'react';
 import './PackageContainer.css';
 import PackageHeader from '../../../Component/PackageHeader/PackageHeader';
-import Header from '../../Home/Header/Header';
+import Header from '../../../Component/Header/Header';
 import Cards from '../../Home/Cards/Cards';
 import Footer from '../../../Component/Footer/Footer';
 

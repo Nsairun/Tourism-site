@@ -1,7 +1,7 @@
 import React from 'react';
 import './GroupII.css';
 import CardTourPackage from '../../../data/SliderData.json';
-import Header from '../Header/Header';
+import Header from '../../../Component/Header/Header';
 
 function GroupII() {
   return (

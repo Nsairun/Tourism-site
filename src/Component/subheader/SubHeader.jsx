@@ -1,4 +1,5 @@
 import React from 'react';
+import { AiOutlineBars } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/images/logo2.jpg';
 import './subheader.css';
@@ -31,6 +32,9 @@ function SubHeader() {
       </div>
       <div className="subheadBtn">
         <Button text="Sign In" color="#C7923E" />
+      </div>
+      <div className="sideBar">
+        <AiOutlineBars />
       </div>
     </div>
   );

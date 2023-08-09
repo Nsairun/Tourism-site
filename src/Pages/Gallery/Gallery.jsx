@@ -12,7 +12,12 @@ function Gallery() {
       <div>
         <StickyBar />
         <NavBar />
-        <PackHeadText h1="Gallery" h4="Home" h5="Gallery" />
+        <PackHeadText
+          className="head-text"
+          h1="Gallery"
+          h4="Home"
+          h5="Gallery"
+        />
       </div>
       <div className="main-gallery">
         <div className="gallery-pics">
@@ -24,7 +29,7 @@ function Gallery() {
             </div>
           </div>
           <div className="second-gallery-container">
-            <img src={vector} alt="pic" />
+            <img src={vector} alt="pic" className="mid-pic" />
             <img src={vector} alt="pic" className="second-pic" />
           </div>
           <div className="third-gallery-container">
