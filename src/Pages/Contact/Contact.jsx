@@ -103,10 +103,8 @@ function Contact() {
         <div className="contact-address">
           <h3>Address</h3>
           <div>
-            <p>
-              kk 600 st <br />
-              Kigali, Rwanda
-            </p>
+            <p>kk 600 st</p>
+            <p> Kigali, Rwanda</p>
           </div>
         </div>
       </div>

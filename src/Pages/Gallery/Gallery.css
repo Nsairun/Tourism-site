@@ -45,7 +45,7 @@ body a {
 }
 
 .first-gallery-container .first-pic {
-  height: 500px;
+  height: 76.5vh;
   width: 215px;
 }
 
@@ -69,7 +69,7 @@ body a {
 }
 
 .third-subGallery-container img {
-  width: 215px;
+  width: 15.5vw;
   height: 174px;
 }
 
@@ -146,6 +146,10 @@ body a {
 .gallery-pics-two-subcontainer {
   display: flex;
   flex-direction: column;
+}
+
+.gallery-pics-two-subcontainer img {
+  height: 38.5vh;
 }
 
 .gallery-pics-third-container{
